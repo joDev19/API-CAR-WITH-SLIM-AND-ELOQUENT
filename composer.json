@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/twig-view": "^3.3",
+        "illuminate/database": "~5.1",
+        "php-di/php-di": "^7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
