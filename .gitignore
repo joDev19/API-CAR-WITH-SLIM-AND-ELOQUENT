@@ -1,0 +1,4 @@
+# Ignorer le dossier vendor
+vendor
+# Ignorer le fichier database.php
+database.php
