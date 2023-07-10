@@ -9,3 +9,7 @@ For my API I have many route like:
 * /
     - method: get
     - list all categorie in my app
+* /categorie
+    - method: post
+    - create a new categorie
+    - body:  nom => name_categorie

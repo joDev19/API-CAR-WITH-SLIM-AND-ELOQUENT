@@ -35,6 +35,13 @@
 
         });
 
+        $app->post('/categorie', function (Request $request, Response $response) {
+            global $categorieController;
+            $data = $categorieController->create($request->getParsedBody()['nom']);
+            $response->getBody()->write(json_encode($data));
+            return $response;
+        });
+
 
 
         // $app->get('/Test-connexion', function (Request $request, Response $response) {
