@@ -11,4 +11,10 @@
             return Categorie::all();
         }
 
+        public function create($nom){
+            return Categorie::create([
+                "nom" => $nom,
+            ]);
+        }
+
     }
